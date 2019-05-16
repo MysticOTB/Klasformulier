@@ -1,0 +1,101 @@
+body {
+    background: url(main_bg5.png) repeat -169px 100px;
+}
+
+div#main_container {
+    margin: 0 auto 0 auto;
+    width: 976px;
+}
+
+div#header {
+    background: url(header5.png) center bottom;
+    width: 100%;
+    height: 50px;
+    margin: 0 0 0 0;
+}
+
+div#list {
+    background: url(nav_boven5.png) no-repeat 0 0;
+    float: left;
+    padding-top: 75px;
+    width: 25%;
+    height: 200px;
+    text-align: left;
+    color: white;
+    margin: 0 0 0 0;
+}
+
+div#content {
+    background: url(h1.5.png) no-repeat 0 0;
+    float: left;
+    width: 70%;
+    height: 800px;
+    text-align: left;
+    padding-top: 75px;
+    margin: 0 0 0 15px;
+}
+
+div.footer {
+    width: 100%;
+    height: 25px;
+    text-align: center;
+}
+
+ul.list1 li {
+    list-style: none;
+    display: inline;
+    text-align: center;
+    font-size: 1.5em;
+    color: red;
+    padding: 0 0 0 0;
+    margin: 0 0 25px 0;
+}
+
+ul.lists2 li {
+    background: url(icon_down.png) no-repeat 0 0;
+    list-style: none;
+    text-align: left;
+    padding: 0 0 0 15px;
+}
+
+h3 {
+    padding-bottom: 25px;
+}
+
+ul {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+
+li.content {
+    margin: 10px 0 0 0;
+    padding: 0 0 35px 5px;
+    width: 400px;
+    background-color: #cfe6dc;
+    border: 1px solid #59806f;
+}
+
+li li {
+    margin: 2px 0 0 0;
+    padding: 0 0 2px 5px;
+}
+
+a {
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: #59806f;
+}
+
+a:hover,
+a:active {
+    color: #60bf96;
+}
+
+li li:hover {
+    margin-left: 50px;
+    transition: 200ms;
+}
